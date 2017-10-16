@@ -1,0 +1,3 @@
+za postojece korisnike
+	username = password;
+(eg.: admin =>admin,bojan=>bojan,dejan=>dejan)

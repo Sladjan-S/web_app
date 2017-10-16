@@ -1,0 +1,256 @@
+*{
+    box-sizing: border-box;
+    font-family: "Roboto","Droid Sans",sans-serif;
+}
+
+
+#registration{
+    width:18em;
+    height:auto;
+    margin:auto;
+    margin-top: 200px;
+    padding: 20px 20px 20px 15px;
+    box-shadow: 1px 1px 5px 0px;
+
+}
+#registration h2{
+    background-color:darkred;
+    padding: 10px;
+    color: white;
+}
+input[type='text'],input[type='email'],input[type='password']{
+    width: 18em;
+    height: 3em;
+    border-style: none;
+    padding:10px;
+    margin-bottom: 5px;
+    border-bottom:1px solid red;
+}
+
+input[type='submit'],input[type='button']{
+    background-color: maroon;
+    color:white;
+    padding:15px 25px;
+}
+input[type='submit']:disabled{
+    background-color: #818181;
+    color: white;
+}
+
+a{
+    font-size:large;
+    background-color:transparent;
+    color:red;
+    text-decoration:none;
+
+}
+.form{
+    width:18em;
+    height:auto;
+    margin:auto;
+    margin-top: 200px;
+    padding:20px 20px 20px 15px;
+    box-shadow:1px 1px 5px 0px;
+
+}
+.form h1{
+    background-color:darkred;
+    padding:10px;
+    color:white;
+}
+#comment{
+    width:70%;
+    height:auto;
+    margin:auto;
+    margin-top: 200px;
+    padding:20px 20px 20px 15px;
+    box-shadow:1px 1px 5px 0px;
+
+}
+#comment label{
+    padding-bottom:5px;
+}
+#comment textarea{
+    border-style:none;
+    border-bottom:1px solid red;
+    border-top:1px solid red;
+}
+#comments{
+    width:70%;
+    height:auto;
+    margin:auto;
+    margin-top: 200px;
+    padding:20px 20px 20px 15px;
+    box-shadow:1px 1px 5px 0px;
+
+}
+#comments input{
+    padding: 3px;
+    border-style:none;
+}
+#comments h3{
+    border-bottom: 1px solid red;
+}
+#comments blockquote{
+    padding: 3px;
+
+}
+#post{
+    width:70%;
+    height:auto;
+    margin:auto;
+    margin-top: 200px;
+    padding:20px 20px 20px 15px;
+    box-shadow:1px 1px 5px 0px;
+}
+#post h2{
+    padding: 3px;
+    border-bottom: 1px solid red;
+}
+#post p{
+    padding:20px 20px 20px 15px;
+    box-shadow:1px 1px 5px 0px
+}
+#container{
+    width:70%;
+    height:auto;
+    margin:auto;
+    padding:20px 20px 20px 15px;
+    box-shadow:1px 1px 5px 0px;
+}
+#container h2{
+    padding: 3px;
+    border-bottom: 1px solid red;
+}
+#container p{
+    padding:20px 20px 20px 15px;
+}
+#container a{
+    float:right;
+    background-color:transparent;
+    color:red;
+}
+#newpost{
+    width:18em;
+    height:auto;
+    margin:auto;
+    margin-top: 200px;
+    padding: 20px 20px 20px 15px;
+    box-shadow: 1px 1px 5px 0px;
+}
+#newpost textarea{
+    width: 100%;
+    align-self:center;
+    border-style:none;
+    border-bottom:1px solid red;
+    border-top:1px solid red;
+}
+.button{
+    float: right;
+
+}
+#postd{
+    width:70%;
+    height:auto;
+    margin:auto;
+    margin-top: 10px;
+    padding:20px 20px 20px 15px;
+    box-shadow:1px 1px 5px 0px;
+}
+#postd p{
+    border-bottom: 1px solid red;
+}
+/*NAVIGACIJA*/
+.sidenav{
+    height:100%;
+    width:0;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left:0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top:60px;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -ms-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+}
+.sidenav a{
+    padding:8px 8px 8px 32px;
+    text-decoration: none;
+    font-size:25px;
+    color: #818181;
+    display: block;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    transition: 0.3s;
+}
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+.sidenav .closebtn{
+    position: absolute;
+    top:0;
+    right: 25px;
+    font-size:36px;
+    margin-left:50px;
+}
+#menuicon{
+    display:inline-block;
+    cursor: pointer;
+}
+#menubar{
+    width:35px;
+    height: 5px;
+    background-color: black;
+    margin:6px 0;
+}
+.catnav{
+    background-color: darkred;
+    overflow: hidden;
+}
+.catnav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.catnav a:hover{
+    background-color: #dddddd;
+    color: #000;
+}
+.catnav a.active{
+    background-color: #4caf50;
+    color:white;
+}
+body{
+    min-height: 50%;
+}
+header{
+    background-color:darkred;
+    color:white;
+    padding: 0px;
+    margin:0px;
+    border-top:2em solid red;
+    border-bottom:1px solid red;
+    text-align:center;
+    height: 25%;
+}
+
+footer{
+    width:100%;
+    height:200px;
+    background-color:darkred;
+    color:white;
+    border-top:1px solid red;
+    text-align:center;
+    margin-top: 2em;
+    margin-bottom: 0;
+}
